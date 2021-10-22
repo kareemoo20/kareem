@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../images/1\ \(6\).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 150px;
+}
+.header{
+    width: 100%;
+    height: 400%;
+    background-color: rgba(0, 0, 0, 0.664);
+    text-align: center;
+
+}
+.content{
+    padding-top: 40px;
+    max-width: 85%;
+    margin: auto;
+}
+
+.header h1{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 80px;
+    color: #fff;
+}
+.header p{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.btn{
+    
+    text-decoration: none;
+    transition: .3s all ease-in;
+    text-align: center;
+    padding: 10px 25px;
+    background-color:#3b3b3b;
+    border-bottom: #363636 6px solid;
+    border-left: #353535 5px solid;
+    box-shadow: 4px 3px 17px 2px #00000071;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin: 10px;
+    color: #fff;
+}
+.btn:hover{
+    background-color:#7a6652 ;
+    border-bottom: #6b5948 6px solid;
+    border-left: #836d59 5px solid;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    transition:cubic-bezier(0.30, 0.4, 0.45, .6);
+    transform: scale(1.04);
+    transition: .2s all ease;
+
+}
+
+.btn-2:hover{
+    background-color:#836d59 ;
+    border-bottom: #836d59 6px solid;
+    border-left: #8b745f 5px solid;
+    background-color:  rgba(114, 20, 114, 0);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    transition:cubic-bezier(0.30, 0.4, 0.45, .6);
+    transform: scale(1.04);
+    transition: .2s all ease;
+}
+.containe{
+    
+    background-color: #796553;
+    padding: 60px 0 100px 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+
+}
+.text-center{
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px;
+  border-bottom: #836d59 6px solid;
+  border-left: #8b745f 5px solid;
+  background-color:#8b745f ;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.art{
+    width: 50%;
+    margin: auto;
+
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 22px 0 11px 0;
+    font-weight: 500;
+    color: #fff;
+}
+h2::after{
+    content: "";
+    display: block;
+    background-color: #2c2c2c;
+    height: 3px;
+    width: 70px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p
+{
+    text-align: center;
+    padding: 15px;
+    border-bottom: #836d59 6px solid;
+    border-left: #8b745f 5px solid;
+    background-color:#8b745f ;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    color: #fff;
+}
+.col-img{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    transition: 3s all ease-in;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.col{
+    padding: 20px 20px;
+    text-align: center;
+}
+.col img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.info{
+    position: relative;
+    z-index: 3;
+    height: 100px;
+}
+.btn-2{
+
+    text-decoration: none;
+    transition: .5s all ease-in;
+    text-align: center;
+    padding: 10px 11px;
+    background-color:#3b3b3b ;
+    border-bottom: #363636 6px solid;
+    border-left: #353535 5px solid;
+    box-shadow: 4px 3px 17px 2px #00000071;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin: 10px;
+    color: #fff;
+}
+    img:hover{
+        transform: scale(1.04);
+    }
+.bb{
+    text-align: center;
+}
+.gallery{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.774);
+    margin: 0;
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.gallery h2{
+    color: #fff;
+}
+
+.slider
+{
+	width: 90%;
+	height: 500px;
+	margin: 50px auto;
+	animation-name: kareem;
+	background-size: 100% 100%;
+	animation-duration: 15s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+@keyframes kareem
+{
+	0%{background-image: url(../images/2\ \(12\).jpg)}
+	30%{background-image: url(../images/2\ \(20\).jpg)}
+	50%{background-image: url(../images/3\ \(10\).jpg)}
+    75%{background-image: url(../images/3\ \(3\).jpg)}
+    100%{background-image: url(../images/alex.jpg)}
+
+}
+.btn-3{
+    text-decoration: none;
+    transition: .3s all ease-in;
+    text-align: center;
+    padding: 10px 30px;
+    background-color:#3b3b3b ;
+    border-bottom: #2c2c2c 6px solid;
+    border-left: #2c2c2c 5px solid;
+    box-shadow: 4px 3px 17px 2px #00000071;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin: 10px;
+    color: #fff;
+
+
+}
+.btn-3:hover{
+    background-color:#7a6652 ;
+    border-bottom: #5d4d3f 6px solid;
+    border-left: #5d4d3d 5px solid;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    transition:cubic-bezier(0.30, 0.4, 0.45, .6);
+    transform: scale(1.05);
+    transition: .1s all ease;
+}
+footer{
+    height: 200px;
+    background-color: #776351;
+    text-align: center;
+}
+.social-icons{
+    margin-left: -50px;
+    margin: auto;
+}
+.social-icons .fab{
+    font-size: 1.8rem;
+   padding: 10px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+footer p{
+    color: white;
+    padding-top: 60px;
+    font-weight: 400;
+    font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+    .row{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .col
+    {
+        margin-bottom: 40px;
+        padding: 20px 0;
+    }
+    
+    .header .p{
+        font-size:.7rem;
+        padding: 0;
+    }
+
+
+  }
